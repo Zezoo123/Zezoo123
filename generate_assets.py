@@ -30,7 +30,54 @@ def header():
         )
     arcs = "\n    ".join(arcs)
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Zeyad Awadalla - Software Engineer">
+    # typewriter tagline — same effect the readme-typing-svg service gives, but
+    # self-hosted, so it can't break when that service is down
+    lines = [
+        "compliance infrastructure for emerging-market fintech",
+        "desktop tooling that runs in production, unattended",
+        "applied ML on messy financial data",
+    ]
+    slot = 4.5
+    total = slot * len(lines)
+    fs = 14.5
+    adv = fs * 0.58  # monospace advance
+    clips, typed = [], []
+    for i, line in enumerate(lines):
+        t0 = i * slot
+        lw = len(line) * adv
+        kt = lambda t: round(t / total, 4)
+        clips.append(
+            f'<clipPath id="type{i}"><rect x="56" y="162" height="22" width="0">'
+            f'<animate attributeName="width" dur="{total}s" repeatCount="indefinite" '
+            f'keyTimes="0;{kt(t0)};{kt(t0+1.3)};{kt(t0+3.9)};1" '
+            f'values="0;0;{lw:.0f};{lw:.0f};0"/></rect></clipPath>'
+        )
+        # The cursor sits OUTSIDE the clip (inside it, it would be clipped away)
+        # and its x travels with the reveal edge, so it leads the typing and
+        # comes to rest against the last character.
+        typed.append(
+            f'<g opacity="0">'
+            # discrete: the line must switch on at its slot, not fade in across the
+            # whole cycle (linear interpolation ghosts the next line's cursor)
+            f'<animate attributeName="opacity" dur="{total}s" repeatCount="indefinite" '
+            f'calcMode="discrete" keyTimes="0;{kt(t0)};{kt(t0+4.0)};1" values="0;1;0;0"/>'
+            f'<g clip-path="url(#type{i})">'
+            # textLength pins the rendered width, so the cursor lands exactly at the
+            # end of the line whatever monospace font the viewer's machine picks
+            f'<text x="56" y="178" font-family="{MONO}" font-size="{fs}" fill="{DIM}" '
+            f'textLength="{lw:.0f}" lengthAdjust="spacing">{line}</text></g>'
+            f'<rect y="166" width="8" height="15" fill="{ACCENT}" x="56">'
+            f'<animate attributeName="x" dur="{total}s" repeatCount="indefinite" '
+            f'keyTimes="0;{kt(t0)};{kt(t0+1.3)};{kt(t0+3.9)};1" '
+            f'values="56;56;{56+lw+4:.0f};{56+lw+4:.0f};56"/>'
+            f'<animate attributeName="opacity" values="1;1;0;1" dur="1.1s" '
+            f'begin="{t0+1.3}s" repeatCount="indefinite" calcMode="discrete"/>'
+            f'</rect></g>'
+        )
+    clips = "\n    ".join(clips)
+    typed = "\n    ".join(typed)
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Zeyad Awadalla - software engineer. Compliance infrastructure for emerging-market fintech, desktop tooling that runs in production, applied ML on messy financial data.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0b1017"/>
@@ -49,6 +96,7 @@ def header():
       <circle cx="1.5" cy="1.5" r="1.1" fill="#ffffff" opacity="0.05"/>
     </pattern>
     <clipPath id="round"><rect width="{w}" height="{h}" rx="14"/></clipPath>
+    {clips}
   </defs>
 
   <g clip-path="url(#round)">
@@ -65,7 +113,7 @@ def header():
       <animate attributeName="width" from="0" to="300" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.2 0 0 1"/>
     </rect>
 
-    <text x="56" y="178" font-family="{MONO}" font-size="14.5" fill="{DIM}" letter-spacing="0.3">software engineer  <tspan fill="{FAINT}">·</tspan>  fintech compliance  <tspan fill="{FAINT}">·</tspan>  desktop tooling  <tspan fill="{FAINT}">·</tspan>  applied ML <tspan fill="{ACCENT}">▌<animate attributeName="fill-opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" calcMode="discrete"/></tspan></text>
+    {typed}
 
     <rect width="{w}" height="{h}" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
   </g>
