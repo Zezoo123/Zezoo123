@@ -1,6 +1,5 @@
 <div align="center">
 
-<<<<<<< HEAD
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,45:203a43,100:2c5364&height=190&section=header&text=Zeyad%20Awadalla&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Software%20Engineer&descAlignY=54&descSize=18&animation=fadeIn" width="100%" alt="Zeyad Awadalla — Software Engineer" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=680&lines=Compliance+infrastructure+for+emerging-market+fintech;Desktop+tooling+that+runs+in+production+every+day;ML+for+DeFi+arbitrage+and+price+prediction;Computer+Science+%C2%B7+University+of+Manchester" alt="What I build" />
@@ -9,7 +8,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=Zezoo123&style=for-the-badge&color=2c5364&label=PROFILE+VIEWS" alt="Profile views" />
 <a href="https://github.com/Zezoo123?tab=followers"><img src="https://img.shields.io/github/followers/Zezoo123?style=for-the-badge&labelColor=161b22&color=203a43" alt="Followers" /></a>
-<a href="https://github.com/Zezoo123?tab=repositories"><img src="https://img.shields.io/badge/REPOS-12-0f2027?style=for-the-badge&labelColor=161b22" alt="Repos" /></a>
+<a href="https://github.com/Zezoo123?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FZezoo123&query=%24.public_repos&label=REPOS&style=for-the-badge&labelColor=161b22&color=0f2027" alt="Repos" /></a>
 
 </div>
 
@@ -27,68 +26,8 @@ Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance co
 
 ---
 
-### Stack
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Product**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Data & ML**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-**Tooling**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-
----
-
 ### Selected work
 
-<!--
-  These are written out rather than pulled from github-readme-stats pin cards.
-  The pin cards are the images that showed as broken logos — that host keeps
-  rate-limiting. Plain markdown always renders.
--->
-
-=======
-<img src="assets/header.svg" width="100%" alt="Zeyad Awadalla — software engineer" />
-
-</div>
-
-### whoami
-
-I build things that have to work on the first run — compliance pipelines where a false negative is a fine, and scheduling software where a bad export means dead air at 6am.
-
-Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance corridors the big vendors price out of reach, and **Radio**, a desktop app a station runs its daily playout schedule through.
-
-[**Email**](mailto:zyadsalama14@gmail.com) &nbsp;·&nbsp; [**LinkedIn**](https://linkedin.com/in/YOUR_HANDLE) &nbsp;·&nbsp; [**Portfolio**](https://github.com/Zezoo123/Portfolio)
-
-### Selected work
-
->>>>>>> 0a88919e0d9c0c568dac74626070eadd5725bdf4
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -96,11 +35,7 @@ Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance co
 **[CorridorComply](https://github.com/Zezoo123/CorridorComply)**
 `python` `fastapi` `ocr`
 
-<<<<<<< HEAD
 Corridor-specific KYC, AML and sanctions screening for emerging-market payment flows — built around Qatar→Philippines and UAE→India. Open-core: base engine free, corridor logic is the paid tier.
-=======
-Corridor-specific KYC, AML and sanctions screening for emerging-market payment flows — built around Qatar→Philippines and UAE→India. Open-core: the base engine is free, corridor logic is the paid tier.
->>>>>>> 0a88919e0d9c0c568dac74626070eadd5725bdf4
 
 </td>
 <td width="50%" valign="top">
@@ -145,58 +80,73 @@ Home-services marketplace for Qatar. Monorepo: Express + TypeScript API, Next.js
 
 </details>
 
-<<<<<<< HEAD
+---
+
+### Stack
+
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Product**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Data & ML**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+**Tooling**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+
 ---
 
 ### The numbers
 
-<!--
-  github-readme-stats is the host that was returning broken images. If these
-  four stay dead, either self-host it (SETUP.md, ~5 min) or delete this section.
-=======
-### Stack
-
-<img src="assets/stack.svg" width="100%" alt="TypeScript, Python, JavaScript, SQL, Solidity, React, Next.js, Electron, Expo, Node, Express, Prisma, PostgreSQL, FastAPI, Flask, scikit-learn, pandas, Jupyter, Git, GitHub Actions, Vite, Vitest" />
-
-### The numbers
-
-<!--
-  These four images come from free public services (github-readme-stats,
-  streak-stats, activity-graph). They rate-limit and go down — when that
-  happens you get a broken-image icon. Either self-host them (see SETUP.md)
-  or delete this whole section; nothing else depends on it.
->>>>>>> 0a88919e0d9c0c568dac74626070eadd5725bdf4
--->
-
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Zezoo123&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&icon_color=38bdf8&include_all_commits=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Zezoo123&show_icons=true&theme=graywhite&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true" alt="GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Zezoo123&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zezoo123&layout=compact&theme=graywhite&hide_border=true&bg_color=00000000&langs_count=8" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Zezoo123&theme=tokyonight&hide_border=true&background=00000000&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
+  <img src="https://streak-stats.demolab.com?user=Zezoo123&theme=graywhite&hide_border=true&background=00000000" alt="Contribution streak" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zezoo123&theme=tokyo-night&hide_border=true&bg_color=00000000&color=38bdf8&line=38bdf8&point=ffffff&area=true" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zezoo123&theme=github-light&hide_border=true&bg_color=00000000&area=true" alt="Contribution graph" width="100%" />
-</picture>
+<!--
+  The two blocks below are generated INTO this repo by GitHub Actions, so they
+  never depend on a third-party host. They stay commented out until the
+  workflows have run once (Actions tab → run workflow), otherwise you'd see a
+  broken image. Setup is in SETUP.md. Remove the comment markers when the
+  files exist.
 
-<!-- Populated by .github/workflows/snake.yml — see SETUP.md. Delete if you skip the workflow. -->
+<img src="github-metrics.svg" alt="GitHub metrics" width="100%" />
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zezoo123/Zezoo123/output/github-snake-dark.svg" />
   <img src="https://raw.githubusercontent.com/Zezoo123/Zezoo123/output/github-snake.svg" alt="Contribution snake" width="100%" />
 </picture>
+-->
 
 </div>
 
-<<<<<<< HEAD
 <div align="center">
-=======
----
->>>>>>> 0a88919e0d9c0c568dac74626070eadd5725bdf4
 
 <sub>Open to backend, fintech and ML engineering roles.</sub>
 
