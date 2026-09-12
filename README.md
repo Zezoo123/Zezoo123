@@ -1,166 +1,114 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,45:203a43,100:2c5364&height=190&section=header&text=Zeyad%20Awadalla&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Software%20Engineer&descAlignY=54&descSize=18&animation=fadeIn" width="100%" alt="Zeyad Awadalla" />
+```ansi
+[38;5;33m███████╗███████╗██╗   ██╗ █████╗ ██████╗ [0m
+[38;5;39m╚══███╔╝██╔════╝╚██╗ ██╔╝██╔══██╗██╔══██╗[0m
+[38;5;45m  ███╔╝ █████╗   ╚████╔╝ ███████║██║  ██║[0m
+[38;5;51m ███╔╝  ██╔══╝    ╚██╔╝  ██╔══██║██║  ██║[0m
+[38;5;45m███████╗███████╗   ██║   ██║  ██║██████╔╝[0m
+[38;5;39m╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═════╝ [0m
+[38;5;245msoftware engineer[0m [38;5;240m·[0m [38;5;245mfintech compliance, desktop tooling, applied ML[0m
+[38;5;240mmanchester cs[0m [38;5;240m·[0m [38;5;240mgithub.com/Zezoo123[0m
+```
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=680&lines=Compliance+infrastructure+for+emerging-market+fintech;Desktop+tooling+that+runs+in+production+every+day;ML+for+DeFi+arbitrage+and+price+prediction;Computer+Science+%C2%B7+University+of+Manchester" alt="What I build" />
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/email-0d1117?style=flat-square&logo=maildotru&logoColor=58a6ff&labelColor=0d1117" alt="email" /></a>
+<a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/linkedin-0d1117?style=flat-square&logo=linkedin&logoColor=58a6ff&labelColor=0d1117" alt="linkedin" /></a>
+<a href="https://github.com/Zezoo123/Portfolio"><img src="https://img.shields.io/badge/portfolio-0d1117?style=flat-square&logo=vercel&logoColor=58a6ff&labelColor=0d1117" alt="portfolio" /></a>
+<img src="https://komarev.com/ghpvc/?username=Zezoo123&style=flat-square&color=58a6ff&label=visitors" alt="visitors" />
+
+</div>
+
+## `~/whoami`
+
+```yaml
+name:      Zeyad Awadalla
+role:      Software Engineer
+education: BSc Computer Science, University of Manchester
+focus:
+  - compliance infrastructure for emerging-market fintech
+  - desktop tooling that runs in production, unattended
+  - applied ML on messy financial data
+building:  CorridorComply   # KYC/AML for remittance corridors
+shipping:  Radio            # scheduling software, used every day
+```
+
+I like problems where being wrong is expensive — a missed sanctions hit, or a
+playout log that leaves a station with dead air at 6am. Most of what I build
+ends up as infrastructure somebody depends on quietly.
+
+## `~/projects`
+
+```ansi
+[38;5;114m$[0m [38;5;252mls -la ~/projects[0m
+
+[38;5;240mdrwxr-xr-x[0m  [1;38;5;45mcorridorcomply/   [0m[38;5;179mpython · fastapi        [0m[38;5;245mcorridor-specific KYC/AML + sanctions screening[0m
+[38;5;240mdrwxr-xr-x[0m  [1;38;5;45mradio/            [0m[38;5;179melectron · react · ts   [0m[38;5;245mplayout logs for BSI Simian Pro, in daily use[0m
+[38;5;240mdrwxr-xr-x[0m  [1;38;5;45mdefi-arbitrage/   [0m[38;5;179mflask · lstm · sklearn  [0m[38;5;245marbitrage detection + price forecasting[0m
+[38;5;240mdrwxr-xr-x[0m  [1;38;5;45mhandyman/         [0m[38;5;179mnext · expo · prisma    [0m[38;5;245mhome-services marketplace, monorepo[0m
+[38;5;240mdrwxr-xr-x[0m  [1;38;5;45mnlu_group1/       [0m[38;5;179mjupyter · nlp           [0m[38;5;245mnatural language understanding, group project[0m
+[38;5;240mdrwxr-xr-x[0m  [1;38;5;45mportfolio/        [0m[38;5;179mtypescript              [0m[38;5;245mpersonal site, designed and built from scratch[0m
+```
+
+| | | |
+|---|---|---|
+| **[CorridorComply](https://github.com/Zezoo123/CorridorComply)** | `python` `fastapi` `ocr` | Corridor-specific KYC, AML and sanctions screening for remittance, payroll and fintech flows — built around Qatar→Philippines and UAE→India. Open-core. |
+| **[Radio](https://github.com/Zezoo123/Radio)** | `electron` `react` `typescript` | Turns Excel station grids into BSI Simian Pro playout logs — programs, audio elements, athan times, hourly markers. Windows installer built in CI, golden-file tests over the export format. |
+| **[DeFi Arbitrage & Prediction](https://github.com/Zezoo123/DeFi-Arbitrage-and-Prediction-Tool)** | `flask` `lstm` `sklearn` | Third-year project: LSTM forecaster alongside an ISOMAP/UMAP + RF/GBR hybrid, feeding on-chain arbitrage detection. |
+| **[Handyman](https://github.com/Zezoo123/Handyman)** | `next` `expo` `prisma` | Home-services marketplace for Qatar. Express/TS API, Next.js web, Expo mobile apps, Postgres via Prisma. |
+
+<details>
+<summary><code>ls ~/projects/archive</code></summary>
 
 <br/>
 
-<a href="https://github.com/Zezoo123?tab=repositories"><img src="https://img.shields.io/badge/Repos-12-0f2027?style=for-the-badge&labelColor=161b22" alt="Repos" /></a>
-<a href="https://github.com/Zezoo123?tab=followers"><img src="https://img.shields.io/github/followers/Zezoo123?style=for-the-badge&labelColor=161b22&color=203a43" alt="Followers" /></a>
-<img src="https://komarev.com/ghpvc/?username=Zezoo123&style=for-the-badge&color=2c5364&label=PROFILE+VIEWS" alt="Profile views" />
+- **[nlu_group1](https://github.com/Zezoo123/nlu_group1)** — natural language understanding group project, notebooks and experiments
+- **[Portfolio](https://github.com/Zezoo123/Portfolio)** — personal site, designed and built from scratch
+- **[application-manager](https://github.com/Zezoo123/application-manager)** — job application and offer tracker
+- **[learn-solidity](https://github.com/Zezoo123/learn-solidity)** — smart contract practice from the DeFi work
+- **[Reddit_brainrot](https://github.com/Zezoo123/Reddit_brainrot)** — Reddit API → short-form social posts
 
-</div>
+</details>
 
----
+## `~/stack`
 
-### whoami
+```ansi
+[38;5;245mlanguages[0m    [38;5;252mTypeScript  Python  JavaScript  SQL  Solidity[0m
+[38;5;245mproduct[0m      [38;5;252mReact  Next.js  Electron  Expo  Node  Express  Prisma  PostgreSQL[0m
+[38;5;245mdata & ml[0m    [38;5;252mFastAPI  Flask  scikit-learn  pandas  Jupyter[0m
+[38;5;245mtooling[0m      [38;5;252mGit  GitHub Actions  Vite  Vitest[0m
+```
 
-I build things that have to work on the first run — compliance pipelines where a false negative is a fine, and scheduling software where a bad export means dead air.
-
-Right now that means **CorridorComply**, a KYC/AML engine aimed at remittance corridors the big vendors price out of reach, and **Radio**, a desktop app that a station runs its daily playout schedule through.
-
-<!-- Swap these for your real links, or delete the line -->
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-<a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-<a href="https://github.com/Zezoo123/Portfolio"><img src="https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-
----
-
-### Stack
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Product**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Data & ML**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-**Tooling**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-
----
-
-### Selected work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://github.com/Zezoo123/CorridorComply">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Zezoo123&repo=CorridorComply&theme=tokyonight&hide_border=true&bg_color=00000000&icon_color=38BDF8" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Zezoo123&repo=CorridorComply&theme=graywhite&hide_border=true&bg_color=00000000" alt="CorridorComply" />
-  </picture>
-</a>
-
-Corridor-specific KYC, AML and sanctions screening for emerging-market payment flows — Qatar→Philippines, UAE→India. Python + FastAPI, OCR-backed document checks, open-core.
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/Zezoo123/Radio">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Zezoo123&repo=Radio&theme=tokyonight&hide_border=true&bg_color=00000000&icon_color=38BDF8" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Zezoo123&repo=Radio&theme=graywhite&hide_border=true&bg_color=00000000" alt="Radio" />
-  </picture>
-</a>
-
-Electron desktop app that turns Excel station grids into BSI Simian Pro playout logs — programs, audio elements, athan times, hourly markers. Ships as a signed Windows installer via Actions. In daily use, with a same-day feedback loop.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://github.com/Zezoo123/DeFi-Arbitrage-and-Prediction-Tool">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Zezoo123&repo=DeFi-Arbitrage-and-Prediction-Tool&theme=tokyonight&hide_border=true&bg_color=00000000&icon_color=38BDF8" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Zezoo123&repo=DeFi-Arbitrage-and-Prediction-Tool&theme=graywhite&hide_border=true&bg_color=00000000" alt="DeFi Arbitrage and Prediction Tool" />
-  </picture>
-</a>
-
-Third-year dissertation project. Flask app pairing an LSTM price forecaster with an ISOMAP/UMAP + Random Forest / Gradient Boosting hybrid, wired to on-chain arbitrage detection.
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/Zezoo123/Handyman">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Zezoo123&repo=Handyman&theme=tokyonight&hide_border=true&bg_color=00000000&icon_color=38BDF8" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Zezoo123&repo=Handyman&theme=graywhite&hide_border=true&bg_color=00000000" alt="Handyman" />
-  </picture>
-</a>
-
-Home-services marketplace for Qatar. Monorepo: Express + TypeScript API, Next.js web, Expo React Native apps, PostgreSQL behind Prisma.
-
-</td>
-</tr>
-</table>
-
----
-
-### The numbers
+## `~/stats`
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Zezoo123&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&icon_color=38BDF8&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Zezoo123&show_icons=true&theme=graywhite&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Zezoo123&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Zezoo123&show_icons=true&theme=graywhite&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true" alt="stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Zezoo123&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zezoo123&layout=compact&theme=graywhite&hide_border=true&bg_color=00000000&langs_count=8" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Zezoo123&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=8b949e&langs_count=8" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zezoo123&layout=compact&theme=graywhite&hide_border=true&bg_color=00000000&langs_count=8" alt="languages" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Zezoo123&theme=tokyonight&hide_border=true&background=00000000&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
-  <img src="https://streak-stats.demolab.com?user=Zezoo123&theme=graywhite&hide_border=true&background=00000000" alt="Streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Zezoo123&theme=dark&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" />
+  <img src="https://streak-stats.demolab.com?user=Zezoo123&theme=graywhite&hide_border=true&background=00000000" alt="streak" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zezoo123&theme=tokyo-night&hide_border=true&bg_color=00000000&color=38BDF8&line=38BDF8&point=ffffff&area=true" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zezoo123&theme=github-light&hide_border=true&bg_color=00000000&area=true" alt="Contribution graph" width="100%" />
-</picture>
-
-<!-- Needs the snake workflow in .github/workflows/snake.yml — see SETUP.md -->
+<!-- Requires .github/workflows/snake.yml — see SETUP.md -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zezoo123/Zezoo123/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Zezoo123/Zezoo123/output/github-snake.svg" alt="Contribution snake" width="100%" />
+  <img src="https://raw.githubusercontent.com/Zezoo123/Zezoo123/output/github-snake.svg" alt="contribution snake" width="100%" />
 </picture>
 
 </div>
 
----
+## `~/contact`
 
-<div align="center">
+```console
+$ mail -s "hello" YOUR_EMAIL
+$ open https://linkedin.com/in/YOUR_HANDLE
+```
 
 <sub>Open to backend, fintech and ML engineering roles.</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,55:203a43,100:0f2027&height=110&section=footer" width="100%" alt="" />
-
-</div>
