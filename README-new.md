@@ -1,5 +1,6 @@
 <div align="center">
 
+<<<<<<< HEAD
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,45:203a43,100:2c5364&height=190&section=header&text=Zeyad%20Awadalla&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Software%20Engineer&descAlignY=54&descSize=18&animation=fadeIn" width="100%" alt="Zeyad Awadalla — Software Engineer" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=680&lines=Compliance+infrastructure+for+emerging-market+fintech;Desktop+tooling+that+runs+in+production+every+day;ML+for+DeFi+arbitrage+and+price+prediction;Computer+Science+%C2%B7+University+of+Manchester" alt="What I build" />
@@ -72,6 +73,22 @@ Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance co
   rate-limiting. Plain markdown always renders.
 -->
 
+=======
+<img src="assets/header.svg" width="100%" alt="Zeyad Awadalla — software engineer" />
+
+</div>
+
+### whoami
+
+I build things that have to work on the first run — compliance pipelines where a false negative is a fine, and scheduling software where a bad export means dead air at 6am.
+
+Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance corridors the big vendors price out of reach, and **Radio**, a desktop app a station runs its daily playout schedule through.
+
+[**Email**](mailto:zyadsalama14@gmail.com) &nbsp;·&nbsp; [**LinkedIn**](https://linkedin.com/in/YOUR_HANDLE) &nbsp;·&nbsp; [**Portfolio**](https://github.com/Zezoo123/Portfolio)
+
+### Selected work
+
+>>>>>>> 0a88919e0d9c0c568dac74626070eadd5725bdf4
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -79,7 +96,11 @@ Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance co
 **[CorridorComply](https://github.com/Zezoo123/CorridorComply)**
 `python` `fastapi` `ocr`
 
+<<<<<<< HEAD
 Corridor-specific KYC, AML and sanctions screening for emerging-market payment flows — built around Qatar→Philippines and UAE→India. Open-core: base engine free, corridor logic is the paid tier.
+=======
+Corridor-specific KYC, AML and sanctions screening for emerging-market payment flows — built around Qatar→Philippines and UAE→India. Open-core: the base engine is free, corridor logic is the paid tier.
+>>>>>>> 0a88919e0d9c0c568dac74626070eadd5725bdf4
 
 </td>
 <td width="50%" valign="top">
@@ -124,6 +145,7 @@ Home-services marketplace for Qatar. Monorepo: Express + TypeScript API, Next.js
 
 </details>
 
+<<<<<<< HEAD
 ---
 
 ### The numbers
@@ -131,6 +153,19 @@ Home-services marketplace for Qatar. Monorepo: Express + TypeScript API, Next.js
 <!--
   github-readme-stats is the host that was returning broken images. If these
   four stay dead, either self-host it (SETUP.md, ~5 min) or delete this section.
+=======
+### Stack
+
+<img src="assets/stack.svg" width="100%" alt="TypeScript, Python, JavaScript, SQL, Solidity, React, Next.js, Electron, Expo, Node, Express, Prisma, PostgreSQL, FastAPI, Flask, scikit-learn, pandas, Jupyter, Git, GitHub Actions, Vite, Vitest" />
+
+### The numbers
+
+<!--
+  These four images come from free public services (github-readme-stats,
+  streak-stats, activity-graph). They rate-limit and go down — when that
+  happens you get a broken-image icon. Either self-host them (see SETUP.md)
+  or delete this whole section; nothing else depends on it.
+>>>>>>> 0a88919e0d9c0c568dac74626070eadd5725bdf4
 -->
 
 <div align="center">
@@ -157,7 +192,11 @@ Home-services marketplace for Qatar. Monorepo: Express + TypeScript API, Next.js
 
 </div>
 
+<<<<<<< HEAD
 <div align="center">
+=======
+---
+>>>>>>> 0a88919e0d9c0c568dac74626070eadd5725bdf4
 
 <sub>Open to backend, fintech and ML engineering roles.</sub>
 
