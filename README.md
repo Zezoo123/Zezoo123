@@ -59,9 +59,11 @@ Third-year project at Manchester. An LSTM price forecaster alongside an ISOMAP/U
 <td width="50%" valign="top">
 
 **[Terminal Pet](https://github.com/Zezoo123/terminal-pet)**
-`swift`
+`swift` `macos` `zsh`
 
-A customisable pet that you can interact with for your terminal that can keep you company while working.
+A pixel-art pet that lives on your terminal window and keeps you company: it reacts to your commands, gets hungry, levels up, and talks in speech bubbles. Native Swift overlay, zsh plugin, five bundled pets.
+
+<a href="https://github.com/Zezoo123/terminal-pet"><img src="https://raw.githubusercontent.com/Zezoo123/terminal-pet/main/docs/demo.gif" width="100%" alt="terminal-pet demo: the cat reacting to commands in Terminal.app" /></a>
 
 </td>
 </tr>
