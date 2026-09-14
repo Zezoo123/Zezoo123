@@ -32,6 +32,28 @@ Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance co
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://github.com/Zezoo123/Radio"><img src="https://raw.githubusercontent.com/Zezoo123/Radio/main/docs/screenshots/hero-log.png" width="100%" alt="Radio: the LOG tab showing a composed broadcast day" /></a>
+
+**[Radio](https://github.com/Zezoo123/Radio)**
+`electron` `react` `typescript`
+
+Turns Excel station grids into BSI Simian Pro playout logs — programs, audio elements, athan times, hourly markers. Windows installer built in CI, golden-file tests over the export format. In daily use, same-day feedback loop.
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/Zezoo123/terminal-pet"><img src="https://raw.githubusercontent.com/Zezoo123/terminal-pet/main/docs/demo.gif" width="100%" alt="terminal-pet demo: the cat reacting to commands in Terminal.app" /></a>
+
+**[Terminal Pet](https://github.com/Zezoo123/terminal-pet)**
+`swift` `macos` `zsh`
+
+A pixel-art pet that lives on your terminal window and keeps you company: it reacts to your commands, gets hungry, levels up, and talks in speech bubbles. Native Swift overlay, zsh plugin, five bundled pets.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **[CorridorComply](https://github.com/Zezoo123/CorridorComply)**
 `python` `fastapi` `ocr`
 
@@ -40,30 +62,10 @@ Corridor-specific KYC, AML and sanctions screening for emerging-market payment f
 </td>
 <td width="50%" valign="top">
 
-**[Radio](https://github.com/Zezoo123/Radio)**
-`electron` `react` `typescript`
-
-Turns Excel station grids into BSI Simian Pro playout logs — programs, audio elements, athan times, hourly markers. Windows installer built in CI, golden-file tests over the export format. In daily use, same-day feedback loop.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 **[DeFi Arbitrage & Prediction](https://github.com/Zezoo123/DeFi-Arbitrage-and-Prediction-Tool)**
 `flask` `lstm` `scikit-learn`
 
 Third-year project at Manchester. An LSTM price forecaster alongside an ISOMAP/UMAP + Random Forest / Gradient Boosting hybrid, feeding on-chain arbitrage detection.
-
-</td>
-<td width="50%" valign="top">
-
-**[Terminal Pet](https://github.com/Zezoo123/terminal-pet)**
-`swift` `macos` `zsh`
-
-A pixel-art pet that lives on your terminal window and keeps you company: it reacts to your commands, gets hungry, levels up, and talks in speech bubbles. Native Swift overlay, zsh plugin, five bundled pets.
-
-<a href="https://github.com/Zezoo123/terminal-pet"><img src="https://raw.githubusercontent.com/Zezoo123/terminal-pet/main/docs/demo.gif" width="100%" alt="terminal-pet demo: the cat reacting to commands in Terminal.app" /></a>
 
 </td>
 </tr>
