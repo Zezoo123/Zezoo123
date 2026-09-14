@@ -58,10 +58,10 @@ Third-year project at Manchester. An LSTM price forecaster alongside an ISOMAP/U
 </td>
 <td width="50%" valign="top">
 
-**[Handyman](https://github.com/Zezoo123/Handyman)**
-`next.js` `expo` `prisma`
+**[Terminal Pet](https://github.com/Zezoo123/terminal-pet)**
+`swift`
 
-Home-services marketplace for Qatar. Monorepo: Express + TypeScript API, Next.js web, Expo React Native apps, PostgreSQL behind Prisma.
+A customisable pet that you can interact with for your terminal that can keep you company while working.
 
 </td>
 </tr>
