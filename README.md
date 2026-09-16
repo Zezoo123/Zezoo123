@@ -28,23 +28,15 @@ Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance co
 
 ### Selected work
 
-<table>
-<tr>
-<td colspan="3" align="center">
-
+<p align="center">
 <a href="https://github.com/Zezoo123/aura"><img src="https://raw.githubusercontent.com/Zezoo123/aura/main/docs/screens/demo.gif" width="760" alt="aura demo: search a song, play it, and the whole UI recolors itself from the album art" /></a>
-
-</td>
-</tr>
-<tr>
-<td colspan="3" valign="top">
+</p>
 
 **[aura](https://github.com/Zezoo123/aura)** &nbsp; `rust` `ratatui` `spotify` &nbsp;·&nbsp; <sub>iTerm2 · Kitty · WezTerm · Ghostty</sub>
 
 A now-playing display for Spotify that lives in your terminal. Real album art through the terminal's native graphics protocol, and every colour in the UI — accents, gradients, the ambient backdrop — is sampled from the cover and cross-fades on track change. Synced lyrics, search and browse, full playback control, three layouts that adapt to the window. No OAuth or developer app needed for the display: it talks to the Spotify desktop app directly.
 
-</td>
-</tr>
+<table>
 <tr>
 <td width="33%" valign="top">
 
