@@ -30,40 +30,57 @@ Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance co
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td colspan="3" align="center">
+
+<a href="https://github.com/Zezoo123/aura"><img src="https://raw.githubusercontent.com/Zezoo123/aura/main/docs/screens/demo.gif" width="760" alt="aura demo: search a song, play it, and the whole UI recolors itself from the album art" /></a>
+
+</td>
+</tr>
+<tr>
+<td colspan="3" valign="top">
+
+**[aura](https://github.com/Zezoo123/aura)** &nbsp; `rust` `ratatui` `spotify` &nbsp;·&nbsp; <sub>iTerm2 · Kitty · WezTerm · Ghostty</sub>
+
+A now-playing display for Spotify that lives in your terminal. Real album art through the terminal's native graphics protocol, and every colour in the UI — accents, gradients, the ambient backdrop — is sampled from the cover and cross-fades on track change. Synced lyrics, search and browse, full playback control, three layouts that adapt to the window. No OAuth or developer app needed for the display: it talks to the Spotify desktop app directly.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 
 <a href="https://github.com/Zezoo123/Radio"><img src="https://raw.githubusercontent.com/Zezoo123/Radio/main/docs/screenshots/hero-log.png" width="100%" alt="Radio: the LOG tab showing a composed broadcast day" /></a>
 
 **[Radio](https://github.com/Zezoo123/Radio)**
 `electron` `react` `typescript`
 
-Turns Excel station grids into BSI Simian Pro playout logs — programs, audio elements, athan times, hourly markers. Windows installer built in CI, golden-file tests over the export format. In daily use, same-day feedback loop.
+Turns Excel station grids into BSI Simian Pro playout logs — programs, audio elements, athan times, hourly markers. Windows installer built in CI, golden-file tests over the export format. In daily use at a station.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 <a href="https://github.com/Zezoo123/terminal-pet"><img src="https://raw.githubusercontent.com/Zezoo123/terminal-pet/main/docs/demo.gif" width="100%" alt="terminal-pet demo: the cat reacting to commands in Terminal.app" /></a>
 
 **[Terminal Pet](https://github.com/Zezoo123/terminal-pet)**
 `swift` `macos` `zsh`
 
-A pixel-art pet that lives on your terminal window and keeps you company: it reacts to your commands, gets hungry, levels up, and talks in speech bubbles. Native Swift overlay, zsh plugin, five bundled pets.
+A pixel-art pet that lives on your terminal window: it reacts to your commands, gets hungry, levels up, and talks in speech bubbles. Native Swift overlay, zsh plugin, five bundled pets.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
+
+<a href="https://github.com/Zezoo123/CorridorComply"><img src="https://raw.githubusercontent.com/Zezoo123/CorridorComply/main/docs/images/review-queue.png" width="100%" alt="CorridorComply: the review queue with a sanctions hit awaiting a decision" /></a>
 
 **[CorridorComply](https://github.com/Zezoo123/CorridorComply)**
 `python` `fastapi` `ocr`
 
-Corridor-specific KYC, AML and sanctions screening for emerging-market payment flows — built around Qatar→Philippines and UAE→India. Open-core: base engine free, corridor logic is the paid tier.
+Corridor-specific KYC, AML and sanctions screening for emerging-market payment flows — built around Qatar→Philippines and UAE→India. Screens against UN, OFAC, UK, EU and Qatar NCTC; rules as data, evidence an inspector can read.
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="3" valign="top">
 
-**[DeFi Arbitrage & Prediction](https://github.com/Zezoo123/DeFi-Arbitrage-and-Prediction-Tool)**
-`flask` `lstm` `scikit-learn`
+**[DeFi Arbitrage & Prediction](https://github.com/Zezoo123/DeFi-Arbitrage-and-Prediction-Tool)** &nbsp; `flask` `lstm` `scikit-learn`
 
 Third-year project at Manchester. An LSTM price forecaster alongside an ISOMAP/UMAP + Random Forest / Gradient Boosting hybrid, feeding on-chain arbitrage detection.
 
