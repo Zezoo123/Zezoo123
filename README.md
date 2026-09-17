@@ -21,7 +21,7 @@ I build things that have to work on the first run — compliance pipelines where
 Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance corridors the big vendors price out of reach, and **Radio**, a desktop app a station runs its daily playout schedule through.
 
 <a href="mailto:zyadsalama14@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-<a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+<a href="https://linkedin.com/in/zeyad-awadalla"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
 <a href="https://github.com/Zezoo123/Portfolio"><img src="https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 
 ---
