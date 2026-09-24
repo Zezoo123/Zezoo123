@@ -16,7 +16,7 @@
 
 ### whoami
 
-I build things that have to work on the first run — compliance pipelines where a false negative is a fine, and scheduling software where a bad export means dead air at 6am.
+I build things that have to work on the first run, compliance pipelines where a false negative is a fine, and scheduling software where a bad export means dead air at 6am.
 
 Right now that's **CorridorComply**, a KYC/AML engine aimed at the remittance corridors the big vendors price out of reach, and **Radio**, a desktop app a station runs its daily playout schedule through.
 
